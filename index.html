@@ -20,39 +20,58 @@
 		</h2>
 	</section>
 
+	<header>
+		<div class="search">
+			<form action="#">
+				<button type="submit" class="searchButton">	
+					<i class="fa fa-search"></i>
+				</button>
+				<input type="text" class="searchTerm" placeholder="SEARCH HERE..." />
+			</form>
+		</div>		
+
+		<div class="topbar">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="#" />
+					</a>
+				</div>
+
+				<div class="soc">
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-vimeo-v"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="far fa-heart"></i></a>
+				</div>
+		</div>
+
+	</header>
+
 	<div class="container-row main-wrapper">
 		<div class="menu-wrapper">
-			<div class="search">
-				<form action="#">
-					<button type="submit" class="searchButton">	
-						<i class="fa fa-search"></i>
-					</button>
-					<input type="text" class="searchTerm" placeholder="SEARCH HERE..." />
-				</form>
-			</div>
 			<div class="menu">
 				<nav class="menu-names">
 					<ul class="menu-content">
 						<li class="menu-list">
-							<a href="#" class="menu-item">Prints</a>
+							<a href="#" id="menu-item-1" class="menu-item">Prints</a>
 						</li>
 						<li class="menu-list">
-							<a href="#" class="menu-item">T-shirts</a>
+							<a href="#" id="menu-item-2" class="menu-item">T-shirts</a>
 						</li>
 						<li class="menu-list">
-							<a href="#" class="menu-item">Hoodies</a>
+							<a href="#" id="menu-item-3" class="menu-item">Hoodies</a>
 						</li>
 						<li class="menu-list">
-							<a href="#" class="menu-item">Jackets</a>
+							<a href="#" id="menu-item-4" class="menu-item">Jackets</a>
 						</li>
 						<li class="menu-list">
-							<a href="#" class="menu-item">Dresses</a>
+							<a href="#" id="menu-item-5" class="menu-item">Dresses</a>
 						</li>
 						<li class="menu-list">
-							<a href="#" class="menu-item">Tops</a>
+							<a href="#" id="menu-item-6" class="menu-item">Tops</a>
 						</li>
 						<li class="menu-list">
-							<a href="#" class="menu-item">Coats</a>
+							<a href="#" id="menu-item-7" class="menu-item">Coats</a>
 						</li>
 					</ul>
 				</nav>
@@ -99,12 +118,6 @@
 		<div class="content-wrapper">
 	
 			<div class="top-bar container-row">
-
-				<div class="logo">
-					<a href="index.html">
-						<img src="img/logo.png" alt="#" />
-					</a>
-				</div>
 	
 				<div id="myNav" class="hamb-menu">
   					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
@@ -136,490 +149,101 @@
 
 			<div class="product-list-wrapper container-column">
 				<div id="row1" class="product-list container-row">
-					<div class="product-item product-item-1">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/1.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
+					<div class="product-item-wrapper">
+						<div class="product-item product-item-1">
+							<a href="product.html" class="product-link">
+								<img class="product-img" src="img/products/1.png" alt="#" />
 							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
+							<div class="product-info">
+								<a href="product.html" class="product-name">
+									<h3 class="title">Product name</h3>
+								</a>
+								<div class="price">
+									<span class="prod-price">$120</span>
+								</div>
 							</div>
-						</div>
+						</div>						
 					</div>
-					<div class="product-item product-item-2">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/2.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
+					<div class="product-item-wrapper">
+						<div class="product-item product-item-2">
+							<a href="product.html" class="product-link">
+								<img class="product-img" src="img/products/2.png" alt="#" />
 							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
+							<div class="product-info">
+								<a href="product.html" class="product-name">
+									<h3 class="title">Product name</h3>
+								</a>
+								<div class="price">
+									<span class="prod-price">$120</span>
+								</div>
 							</div>
-						</div>
+						</div>						
 					</div>
-					<div class="product-item product-item-3">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/3.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
+				</div>			
+				<div id="row1" class="product-list container-row">
+					<div class="product-item-wrapper">
+						<div class="product-item product-item-3">
+							<a href="product.html" class="product-link">
+								<img class="product-img" src="img/products/3.png" alt="#" />
 							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
+							<div class="product-info">
+								<a href="product.html" class="product-name">
+									<h3 class="title">Product name</h3>
+								</a>
+								<div class="price">
+									<span class="prod-price">$120</span>
+								</div>
 							</div>
-						</div>
+						</div>						
 					</div>
-					<div class="product-item product-item-4">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/4.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
+					<div class="product-item-wrapper">
+						<div class="product-item product-item-4">
+							<a href="product.html" class="product-link">
+								<img class="product-img" src="img/products/4.png" alt="#" />
 							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
+							<div class="product-info">
+								<a href="product.html" class="product-name">
+									<h3 class="title">Product name</h3>
+								</a>
+								<div class="price">
+									<span class="prod-price">$120</span>
+								</div>
 							</div>
-						</div>
+						</div>						
 					</div>
-					<div class="product-item product-item-5">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/5.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
+				</div>	
+				<div id="row1" class="product-list container-row">
+					<div class="product-item-wrapper">
+						<div class="product-item product-item-5">
+							<a href="product.html" class="product-link">
+								<img class="product-img" src="img/products/5.png" alt="#" />
 							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
+							<div class="product-info">
+								<a href="product.html" class="product-name">
+									<h3 class="title">Product name</h3>
+								</a>
+								<div class="price">
+									<span class="prod-price">$120</span>
+								</div>
 							</div>
-						</div>
+						</div>						
 					</div>
-					<div class="product-item product-item-6">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/6.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
+					<div class="product-item-wrapper">
+						<div class="product-item product-item-6">
+							<a href="product.html" class="product-link">
+								<img class="product-img" src="img/products/6.png" alt="#" />
 							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
+							<div class="product-info">
+								<a href="product.html" class="product-name">
+									<h3 class="title">Product name</h3>
+								</a>
+								<div class="price">
+									<span class="prod-price">$120</span>
+								</div>
 							</div>
-						</div>
+						</div>						
 					</div>
-				</div>
-
-				<div id="row2" class="product-list container-row">
-					<div class="product-item product-item-1">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/1.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-2">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/2.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-3">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/3.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-4">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/4.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-5">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/5.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-6">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/6.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-				</div>		
-
-				<div id="row3" class="product-list container-row">
-					<div class="product-item product-item-1">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/1.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-2">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/2.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-3">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/3.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-4">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/4.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-5">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/5.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-6">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/6.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-				</div>		
-
-				<div id="row4" class="product-list container-row">
-					<div class="product-item product-item-1">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/1.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-2">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/2.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-3">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/3.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-4">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/4.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-5">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/5.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-6">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/6.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-				</div>		
-
-				<div id="row5" class="product-list container-row">
-					<div class="product-item product-item-1">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/1.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-2">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/2.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-3">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/3.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-4">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/4.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-5">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/5.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-6">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/6.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-				</div>		
-
-				<div id="row6" class="product-list container-row">
-					<div class="product-item product-item-1">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/1.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-2">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/2.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-3">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/3.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-4">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/4.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-5">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/5.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-					<div class="product-item product-item-6">
-						<a href="product.html" class="product-link">
-							<img class="product-img" src="img/products/6.png" alt="#" />
-						</a>
-						<div class="product-info">
-							<a href="product.html" class="product-name">
-								<h3 class="title">Product name</h3>
-							</a>
-							<div class="price">
-								<span class="prod-price">€120</span>
-							</div>
-						</div>
-					</div>
-				</div>															
+				</div>												
 			</div>
 
 		</div>
